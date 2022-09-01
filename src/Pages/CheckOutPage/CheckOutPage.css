@@ -1,0 +1,14 @@
+.checkOutPage{
+ min-height: 100vh;
+ margin: 0px 0px !important;
+ overflow-x: hidden !important;
+}
+
+.roomName{
+    position:absolute;
+    bottom: 5%;
+    left: 5%;
+    color: rgb(33, 196, 236);
+    font-weight: 700;
+    font-size: 22px; 
+}

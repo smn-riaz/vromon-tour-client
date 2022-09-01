@@ -1,0 +1,9 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
+.website-name{
+    font-family: 'Mochiy Pop One', sans-serif;
+    font-size:x-large;
+}
+.name-box{
+    background-color: rgba(118, 166, 180, 0.87);
+}

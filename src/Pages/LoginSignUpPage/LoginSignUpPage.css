@@ -1,0 +1,20 @@
+.loginSignUpPage{
+    min-height: 100vh;
+    overflow-x: hidden !important;
+    margin: 0px 0px !important;
+}
+.login-container{
+    background-color: rgba(128, 128, 128, 0.726);
+}
+.social-signup button {
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+}
+.toggle-text{
+    cursor: pointer;
+}
+
+.after-login{
+    background-color: rgba(44, 42, 42, 0.24);
+}
+

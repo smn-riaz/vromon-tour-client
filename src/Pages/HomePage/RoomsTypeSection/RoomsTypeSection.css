@@ -1,0 +1,43 @@
+.roomsTypeSection{
+    min-height: 100vh;
+}
+
+.room-typeContainer{
+    position: relative;
+    padding: 0px 0px !important;
+}
+.room-typeContainer:hover{
+    opacity: .8;
+}
+.room-type{
+    position:absolute;
+    bottom:3%;
+    right: 5%;
+    color: rgb(10, 10, 10);
+    font-weight: 700;
+    font-size: 22px;
+    
+}
+.room-button{
+    position:absolute;
+    top: 0%;
+}
+.room-button>button{
+    border: 0;
+    padding: 5px 10px;
+    background-color: rgba(56, 54, 54, 0.288);
+    color: rgb(8, 1, 1);
+    font-weight: 700;
+}
+.right-image{
+    padding-bottom: 0px !important;
+}
+.right-image img{
+    margin-bottom: 0px;
+    width: 100%;
+    height: 80%;
+}
+.left-image{
+    padding-bottom: 0px !important;
+}
+
