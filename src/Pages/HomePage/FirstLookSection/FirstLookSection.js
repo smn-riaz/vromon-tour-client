@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import TopBannerSection from '../../../Components/TopBannerSection/TopBannerSection'
-import image1 from '../../../Assets/topbanner.jpg'
+import image1 from '../../../Assets/bg-top.jpg'
 import './FirstLookSection.css'
 
 function FirstLookSection() {

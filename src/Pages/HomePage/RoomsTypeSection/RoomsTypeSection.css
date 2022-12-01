@@ -1,10 +1,10 @@
 .roomsTypeSection{
-    min-height: 100vh;
+  background-color: rgb(255, 254, 254); 
+
 }
 
 .room-typeContainer{
     position: relative;
-    padding: 0px 0px !important;
 }
 .room-typeContainer:hover{
     opacity: .8;

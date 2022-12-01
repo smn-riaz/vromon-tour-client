@@ -5,7 +5,7 @@ import image2 from "../../../Assets/topbanner2.jpg";
 function OfferSection() {
   return (
     <main
-      className="offerSection d-flex justify-content-center align-items-center"
+      className="offerSection d-flex justify-content-center align-items-center  p-5 my-5 "
       style={{
         backgroundImage: `url(${image2})`,
         backgroundPosition: "center",

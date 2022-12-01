@@ -2,3 +2,7 @@
     min-height: 100vh;
     overflow: hidden;
 }
+
+.roomspage-headline{
+    text-transform: uppercase;
+}

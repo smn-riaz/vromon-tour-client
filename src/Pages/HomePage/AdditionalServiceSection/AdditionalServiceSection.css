@@ -1,3 +1,9 @@
 .additionalServiceSection{
     min-height: 100vh;
 }
+.extra-service{
+    background-color: #e6b581;
+    padding: 2px 8px;
+    margin: 10px 0;
+    font-weight: 400;
+}

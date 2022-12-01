@@ -1,5 +1,11 @@
 .footerSection{
     min-height: 30vh;
+    background-color: rgb(37, 37, 37);
+   
+}
+.footer-link{
+    text-decoration: none;
+    color: white;
 }
 
 .footer-link-container{

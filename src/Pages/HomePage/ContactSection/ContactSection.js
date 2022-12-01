@@ -6,7 +6,7 @@ function ContactSection() {
   return (
     <main
       id="contactUs"
-      className="contactSection d-flex row justify-content-center align-items-center"
+      className="contactSection d-flex row justify-content-center align-items-center  p-5"
       style={{
         backgroundImage: `url(${contact})`,
         backgroundPosition: "center",

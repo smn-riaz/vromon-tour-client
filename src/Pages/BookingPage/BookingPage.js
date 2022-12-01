@@ -9,8 +9,9 @@ import NavBarSection from "../../Components/NavBarSection/NavBarSection";
 function BookingPage() {
   return (
     <main className="bookingPage">
-      <div className="d-flex row justify-content-center align-items-center py-4 p-2">
-        <div className="col-lg-4 col-md-6 col-sm-10 m-1 room-typeContainer p-3">
+      <div className="d-flex row justify-content-center align-items-center py-5 px-2">
+
+        <div className="col-lg-3 col-md-6 col-sm-10 m-1 room-typeContainer">
           <Link to="/smallRoom">
             <img src={smallRoom} className="h-100 w-100" alt="" />
             <div className="room-button">
@@ -21,7 +22,7 @@ function BookingPage() {
           </Link>
         </div>
 
-        <div className="col-lg-4 col-md-6 col-sm-10 m-1 room-typeContainer p-3">
+        <div className="col-lg-3 col-md-6 col-sm-10 m-1 room-typeContainer">
           <Link to="/luxuryRoom">
             <img src={luxuryRoom} className="h-100 w-100" alt="" />
             <div className="room-button">
@@ -32,7 +33,7 @@ function BookingPage() {
           </Link>
         </div>
 
-        <div className="col-lg-4 col-md-6 col-sm-10 m-1 room-typeContainer p-3">
+        <div className="col-lg-3 col-md-6 col-sm-10 m-1 room-typeContainer">
           <Link to="/apartment">
             <img src={apartment} className="h-100 w-100" alt="" />
             <div className="room-button">
@@ -42,6 +43,7 @@ function BookingPage() {
             <h5 className="room-type">Apartment</h5>
           </Link>
         </div>
+
       </div>
     </main>
   );

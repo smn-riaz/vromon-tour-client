@@ -1,17 +1,19 @@
+import React from "react";
+import { Link } from "react-router-dom";
+import "./BookingButton.css";
 
-import React from 'react'
-import { Button } from 'react-bootstrap'
-import { Link } from 'react-router-dom'
-
-function BookingButton({goLink}) {
+function BookingButton({ goLink }) {
   return (
-    <div><Link to={`${goLink}`}>
-       <Button variant="outline-white" className='px-4 bg-secondary text-white border-white fs-5'>
-        Book Now
-        </Button>{' '}
-        </Link>
+    <div className="">
+      <Link to={`${goLink}`}>
+        <button
+          className="px-4 py-2 text-white  border-2 border border-white fs-5 bookingbutton"
+        >
+          BOOK NOW
+        </button>{" "}
+      </Link>
     </div>
-  )
+  );
 }
 
-export default BookingButton
+export default BookingButton;

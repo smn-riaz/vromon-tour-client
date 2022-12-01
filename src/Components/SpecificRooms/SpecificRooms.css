@@ -1,38 +1,11 @@
-.specificRoomContainer{
-    position: relative;
-   
-
+.specificroom-container{
+    background-color: #e2b792;
+    border-radius: 20px;
 }
-.room-name{
-    position:absolute;
-    top: 5%;
-    right: 5%;
-    color: rgb(10, 10, 10);
-    font-weight: 700;
-    font-size: 22px;
-    
-}
-.price-btn{
-    position:absolute;
-    top: 0%;
-}
-.price-btn>button{
+.room-name {
     border: 0;
-    padding: 5px 10px;
-    background-color: rgba(43, 230, 174, 0.288);
-    color: rgb(8, 1, 1);
-    font-weight: 700;
-}
-
-.book-btn{
-    visibility: hidden;
-    transition: transform 1s ease;
-    transform: translate(0px , 6px);
-    position:absolute;
-    bottom: 10%;
-    left: 30%;
-}
-.specificRoomContainer:hover .book-btn{
-    visibility: visible;
-    transform: translate(0px , -4px);
+    padding: 2px 20px;
+    font-size: 20px;
+    border-radius: 20px;
+    font-weight: 500;
 }

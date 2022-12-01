@@ -1,0 +1,8 @@
+.aboutusbtn{
+    background-color: #ee8b4e;
+}
+
+.aboutusbtn:hover{
+    background-color: #bd7c53;
+    transition: all ease-in-out .5s;
+}

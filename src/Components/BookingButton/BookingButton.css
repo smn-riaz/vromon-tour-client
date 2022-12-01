@@ -1,0 +1,9 @@
+.bookingbutton{
+    background-color: #f5974f00;
+
+}
+
+.bookingbutton:hover{
+    background-color: #AD7E60;
+    transition: all ease-in-out .5s;
+}

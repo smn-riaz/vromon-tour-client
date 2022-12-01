@@ -8,6 +8,7 @@ import OfferSection from './OfferSection/OfferSection'
 import RoomsTypeSection from './RoomsTypeSection/RoomsTypeSection'
 import './HomePage.css'
 import ScrollToTop from 'react-scroll-to-top'
+import AttractionSection from './AttractionSection/AttractionSection'
 
 function HomePage() {
   return (
@@ -15,10 +16,11 @@ function HomePage() {
       <ScrollToTop smooth color="#6f00ff"/>
         <FirstLookSection />
         <AboutUsSection />
-         <AdditionalServiceSection />
+        <AdditionalServiceSection />
         <OfferSection />
         <RoomsTypeSection />
-       <ContactSection />
+        <AttractionSection />
+        <ContactSection />
         <FooterSection />
     </main>
   )

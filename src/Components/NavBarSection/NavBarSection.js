@@ -15,7 +15,7 @@ function NavBarSection() {
   const { registered, setRegistered } = useContext(RegisteredUserInfoContext);
 
   return (
-    <main className="px-5">
+    <main className="px-2">
       <>
         {["lg"].map((expand) => (
           <Navbar key={expand} expand={expand} className="">
@@ -38,8 +38,17 @@ function NavBarSection() {
                     Vromon - Tour
                   </Offcanvas.Title>
                 </Offcanvas.Header>
+
                 <Offcanvas.Body>
                   <Nav className="justify-content-end flex-grow-1 pe-5 ">
+                    <Nav.Link className="pe-4">
+                      <NavHashLink
+                        to="/#aboutUs"
+                        className="fw-bold text-dark text-decoration-none"
+                      >
+                        Home
+                      </NavHashLink>
+                    </Nav.Link>
                     <Nav.Link className="pe-4">
                       <NavHashLink
                         to="/#aboutUs"
@@ -104,6 +113,14 @@ function NavBarSection() {
                         </Nav.Link>
                       )} */}
 
+                    <Nav.Link className="pe-4">
+                      <NavHashLink
+                        to="/#contactUs"
+                        className="fw-bold text-dark text-decoration-none"
+                      >
+                        Blog
+                      </NavHashLink>
+                    </Nav.Link>
                     <Nav.Link className="pe-4">
                       <NavHashLink
                         to="/#contactUs"
