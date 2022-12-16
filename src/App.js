@@ -28,9 +28,9 @@ function App() {
         <Route index element={<HomePage />} />
         <Route path="/booking" element={<BookingPage />} />
         <Route path="/login" element={<LoginSignUpPage />} />
-        {/* <Route path="/:room/:roomName" element={<PrivateRoute />}> */}
-        <Route path="/:room/:roomName" element={<CheckOutPage />} />
-        {/* </Route> */}
+        <Route path="/:room/:roomName" element={<PrivateRoute />}>
+          <Route path="" element={<CheckOutPage />} />
+        </Route>
         <Route path="/:room" element={<RoomsPage />} />
        <Route path="/myBooking" element={<PrivateRoute />}>
           <Route path="" element={<BookingDetailsPage />} />
