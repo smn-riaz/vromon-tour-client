@@ -5,5 +5,12 @@
     font-size:x-large;
 }
 .name-box{
-    background-color: rgba(118, 166, 180, 0.87);
+    text-decoration: none;
+}
+.mybooking{
+    text-decoration: none;
+    color: #BD7C53;
+}
+.mybooking:hover{
+    color: #BD7C53;
 }

@@ -53,7 +53,7 @@ function LoginSignUpPage() {
 
       {registered.email && (
         <div className="d-flex align-items-center justify-content-center after-login">
-          <div className="col-6 w-50">
+          <div className="col-5 w-50">
             <h2 className="text-center py-5">
               Congratulations, {registered.name}
             </h2>

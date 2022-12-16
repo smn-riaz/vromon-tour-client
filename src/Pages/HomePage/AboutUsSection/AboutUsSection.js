@@ -8,7 +8,7 @@ import AboutUsBtn from "../../../Components/AboutUsBtn/AboutUsBtn";
 function AboutUsSection() {
   return (
     <main
-      className="d-flex flex-row align-items-center justify-content-center aboutUsSection p-5 my-5 row container mx-auto"
+      className="d-flex flex-row align-items-center justify-content-center aboutUsSection p-5 row container mx-auto"
       id="aboutUs"
     >
       <div className="col-lg-5 col-sm-10 col-md-6 px-3 d-flex flex-column align-items-center justify-content-center">

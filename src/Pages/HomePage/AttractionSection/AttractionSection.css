@@ -4,3 +4,14 @@
 .attraction-container{
     background-color: rgb(243, 239, 233);
 }
+
+.attraction-btn{
+    border: 1px solid #BD7C53;
+    color: #BD7C53 ;
+    font-weight: 500;
+}
+.attraction-btn:hover{
+    background-color: white;
+    transition: all 2s ease;
+    border:1px solid gray;
+}

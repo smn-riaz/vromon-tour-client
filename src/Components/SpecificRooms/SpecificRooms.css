@@ -1,6 +1,6 @@
 .specificroom-container{
-    background-color: #e2b792;
     border-radius: 20px;
+    background-color: rgba(247, 233, 233, 0.76);
 }
 .room-name {
     border: 0;

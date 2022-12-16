@@ -158,7 +158,7 @@ function CheckOutPage() {
     <main className="checkOutPage ">
       {registered.totalCost === 0 && (
         <div className="d-flex row justify-content-around align-items-center py-4">
-          <div className="calender-checkout col-lg-5 py-3">
+          <div className="calender-checkout col-lg-6 py-3 overflow">
             <DateRangePicker
               onChange={(item) => setState({ ...state, ...item })}
               months={2}
@@ -170,27 +170,29 @@ function CheckOutPage() {
             />
           </div>
 
-          <div className="col-lg-5">
-            <div className="d-flex row justify-content-around align-items-center">
-              {" "}
-              <h5 className="col-3">
-                Days : <b className="text-primary">{diffDays}</b>
-              </h5>
-              <h5 className="col-3">
-                Cost: <b className="text-primary">${roomCost}</b>
-              </h5>{" "}
-              <h5 className="col-6">
-                [<b className="text-primary"> {startDate}</b> to{" "}
-                <b className="text-primary">{endDate} </b>]
+          <div className="col-lg-6 p-2">
+          <div className="d-flex justify-content-center">
+            <h5 className="border border-2 w-auto p-2">
+                <b className=""> {startDate}</b> -
+                <b className="">{endDate} </b>
               </h5>
             </div>
+            <div className="d-flex justify-content-center gap-4 align-items-center">
+              {" "}
+              <h5 className="">
+                <b className="">{diffDays}</b><sup>Days</sup>
+              </h5>
+              <h5 className=""><b className="">${roomCost}</b>
+              </h5>{" "}
+            </div>
+            
 
-            <div className="specificRoomContainer">
-              <img src={room.image} className="w-75 h-50" alt="" />
-              <div className="price-btn">
-                <button>${room.price} / DAY</button>
-              </div>
+            <div className=" d-flex justify-content-center">
+              <div className="specificRoomContainer p-4">
+              <img src={room.image} className="w-100 h-100" alt="" />
+             
               <h5 className="roomName">{room.name}</h5>
+              </div>
             </div>
 
             <h4 className="text-center pt-2">Additional Service: </h4>

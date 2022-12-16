@@ -14,7 +14,7 @@ function LogoutModal() {
   const handleShow = () => setShow(true);
   return (
     <>
-      <button variant="primary" onClick={handleShow}>
+      <button variant="primary" className="border-0 fw-semibold bg-light" onClick={handleShow}>
         Logout
       </button>
 
@@ -27,8 +27,8 @@ function LogoutModal() {
             <img src={registered.profile} alt="" className="rounded-circle"/>
             <h5>{registered.name}</h5>
             <hr />
-            <h6 className="text-danger">Are you sure want to Log out?</h6>
-            <button className="px-3 py-1" onClick={handleLogOut}>Log out</button>
+            <h6 className="">Are you sure want to Log out?</h6>
+            <button className="px-3 py-1 border-0 fw-semibold bg-secondary" onClick={handleLogOut}>Log out</button>
           </div>
         </Modal.Body>
         <Modal.Footer>

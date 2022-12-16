@@ -11,7 +11,7 @@ import { BiArea } from "react-icons/bi";
 
 function RoomsTypeSection() {
   return (
-    <main className="roomsTypeSection row d-flex justify-content-center align-items-center  p-5 my-5 ">
+    <main className="roomsTypeSection row d-flex justify-content-center align-items-center  py-5 px-2">
       <h6 className="text-center text-secondary">LUXURY HOTEL</h6>
       <h1 className="py-2 text-center">Best Rooms</h1>
 
@@ -63,21 +63,21 @@ function RoomsTypeSection() {
             </div>
           </div>
 
-          <div className="mx-1 my-2">
+          <div className="mx-1 my-2 py-4">
             <div>
               <h3>Comfortable Place</h3>
             </div>
-            <div className="d-flex jusity-content-start row">
-              <div className="col-5 d-flex">
+            <div className="d-flex flex-sm-row flex-column jusity-content-start gap-2">
+              <div className="d-flex">
                 <div className="">
-                  <p className="bg-dark text-white fw-bold px-1">9.5</p>
+                  <p className="bg-dark text-white fw-bold px-1 w-auto">9.5</p>
                 </div>
                 <div className="px-1">
                   <p className="text-secondary fw-semibold">300+ Reviews</p>
                 </div>
               </div>
 
-              <div className="col-4 d-flex">
+              <div className=" d-flex">
                 <div className="">
                   <BsPeopleFill />
                 </div>
@@ -86,7 +86,7 @@ function RoomsTypeSection() {
                 </div>
               </div>
 
-              <div className="col-3 d-flex">
+              <div className=" d-flex">
                 <div className="">
                   <BiArea />
                 </div>

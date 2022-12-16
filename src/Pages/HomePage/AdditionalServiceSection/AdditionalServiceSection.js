@@ -17,14 +17,15 @@ import {MdOutlineAirportShuttle} from 'react-icons/md'
 import {FaBath, FaSwimmingPool} from 'react-icons/fa'
 import {GiSlicedBread, GiBeerBottle} from 'react-icons/gi'
 import {CgGym} from 'react-icons/cg'
+import { Link } from "react-router-dom";
 
 function AdditionalServiceSection() {
   const extras = [extra2, extra3, extra4, extra5,extra6, extra7, extra9];
 
   return (
-    <main className="p-5 my-5 ">
+    <main className="p-2">
       <div className="additionalServiceSection d-flex row justify-content-center align-items-center">
-        <div className="col-lg-4 col-md-4 col-sm-10 d-flex justify-content-center align-items-center">
+        <div className="col-lg-5 col-md-5 col-sm-10 d-flex justify-content-center align-items-center">
           <div>
             <h6 className="text-center text-secondary">LUXURY HOTEL</h6>
             <h1 className="py-2 text-center">Extra Services</h1>
@@ -53,9 +54,15 @@ function AdditionalServiceSection() {
                 <li>Swimming Pool</li>
                 <li><FaSwimmingPool size={23}/></li>
               </div>
-             
+              <div className="text-center py-4 d-flex justify-content-start  w-full">
+              <Link to="/booking">
+                <button className="px-4 py-1  attraction-btn ">
+                  BOOK NOW
+                </button>{" "}
+              </Link>
+            </div>
             </ul>
-            <BookingButton goLink="/booking" />
+            
           </div>
         </div>
 

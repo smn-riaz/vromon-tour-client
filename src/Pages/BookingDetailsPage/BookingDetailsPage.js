@@ -7,7 +7,7 @@ const BookingDetailsPage = () => {
   const { registered, setRegistered } = useContext(RegisteredUserInfoContext);
   const confirmData = JSON.parse(localStorage.getItem("confirmData"));
   const bookingData = registered;
-  console.log(bookingData);
+  console.log(registered);
   return (
     <main className="d-flex justify-content-center row bookingDetailsPage m-1 p-2">
       <div className="col-10">
@@ -68,7 +68,7 @@ const BookingDetailsPage = () => {
               Extra Services: <b>${bookingData.extraServicesCost}</b>
             </h4>
             {bookingData.extraServices.map((service) => (
-              <button className="px-3 py-1 mx-2 fw-bold service-button">
+              <button className="px-3 py-1 mx-2 my-1 fw-bold service-button">
                 {service.serviceName}{" "}
                 <sup>
                   $<b>{service.cost}</b>

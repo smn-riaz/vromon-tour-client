@@ -176,16 +176,18 @@ function NavBarSection() {
                     )}
 
                     {registered.email && (
-                      <Nav.Link className="pe-4 ">
+                      <Nav.Link className="pe-4 border-0">
                         <LogoutModal />
                       </Nav.Link>
                     )}
 
                     {registered.name && (
                       <Nav.Link className="pe-4 fw-bold text-dark">
-                        <span className="name-box px-3 py-1">
-                          {registered.name.split(" ")[0]}
-                        </span>
+                        <Link to="/myBooking" className="mybooking">
+                          <span className="name-box px-3 py-1">
+                            {registered.name.split(" ")[0]}
+                          </span>
+                        </Link>
                       </Nav.Link>
                     )}
                   </Nav>
